@@ -1,0 +1,22 @@
+# Environnements virtuels
+venv/
+env/
+.venv/
+
+# Datasets et modèles
+*.h5
+*.pt
+*.pkl
+dataset/
+data/
+images/
+
+# Cache Python
+__pycache__/
+*.pyc
+
+# Modèles et datasets spécifiques
+*.keras
+*.csv
+*.save
+*.wav
