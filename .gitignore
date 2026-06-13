@@ -1,22 +1,18 @@
-# Environnements virtuels
-venv/
+# --- Environnements et Cache (Gardez ceci bloqué) ---
 env/
+venv/
 .venv/
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.streamlit/secrets.toml
 
-# Datasets et modèles
-*.h5
-*.pt
-*.pkl
+# --- Autoriser les modèles et outils nécessaires (C'est ici que tu corriges) ---
+# On ne met plus "*.keras" ni "*.save" ici pour qu'ils soient envoyés à GitHub
+# On garde juste les datasets bruts bloqués si ils sont trop lourds
 dataset/
 data/
 images/
-
-# Cache Python
-__pycache__/
-*.pyc
-
-# Modèles et datasets spécifiques
-*.keras
-*.csv
-*.save
 *.wav
+
+# (Si tes fichiers .keras sont dans un sous-dossier, ils seront envoyés)
