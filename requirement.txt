@@ -1,7 +1,0 @@
-streamlit
-tensorflow
-librosa
-numpy
-noisereduce
-joblib
-scikit-learn
